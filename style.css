@@ -3,3 +3,33 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+#header{
+    padding: 50px;
+    background-color: rgb(138, 137, 137);
+    color: black;
+    max-width: 1000px; /*determinou o tamanho do header, mais não a posição*/
+    margin-left: 25%; /*colocar no meio*/
+    border: solid;
+    border-color: red;
+}
+.top{
+    /*Inicio - Display Flex*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    /*Fim - Display Flex*/
+}
+.logo-top{
+    font-size: 40px;
+}
+.nav-top a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+a:hover{
+    text-decoration: underline;
+    color: #59adc9;
+}

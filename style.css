@@ -7,13 +7,28 @@
     margin: 0;
     font-family: poppins, sans-serif;
 }
-#header{
-    padding: 50px;
-    background-color: rgb(138, 137, 137);
+body{
+    background-color: #59adc9;
+}
+a{
     color: black;
-    max-width: 1000px; /*determinou o tamanho do header, mais não a posição*/
-    margin-left: 25%; /*colocar no meio*/
-    border: solid;
+    text-decoration: none;
+}
+.cor1{
+    background-color: #59adc9;
+    padding: 5px;
+    border-radius: 5px;
+}
+.cor2{
+    
+}
+#header{
+    padding: 30px;
+    background-color: white;
+    color: black;
+    max-width: 1300px; /*determinou o tamanho do header, mais não a posição*/
+    margin-left: 15%; /*colocar no meio*/
+    
     border-color: red;
 }
 .top{
@@ -27,13 +42,41 @@
 .logo-top{
     font-size: 40px;
 }
+.logo{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
 .nav-top a{
     font-size: 20px;
     color: black;
     text-decoration: none;
     padding-left: 20px;
+    font-weight: 500;
 }
-a:hover{
+.nav-top a:hover{
     text-decoration: underline;
     color: #59adc9;
+}
+#main{
+    background-color: white;
+    border-color: rgb(0, 255, 85);
+    max-width: 1300px;
+    margin-left: 15%;
+    padding: 30px;
+    font-size: 25px;
+    height: 787px;
+}
+.home{
+    padding-top: 250px;
+    font-size: 50px;
+    
+}
+.button-home button{
+    background-color: #59adc9;
+    height: 80px;
+    width: 300px;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 50px;
+    color: white;
 }

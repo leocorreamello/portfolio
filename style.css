@@ -87,6 +87,15 @@ a{
     padding: 30px;
     font-size: 25px;
     height: 393px;
+    font-size: 30px;
+}
+.aboutme{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 250px;
+    padding-top: 50px;
 }
 .section3{
     background-color: rgb(225, 0, 255);

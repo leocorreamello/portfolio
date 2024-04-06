@@ -69,16 +69,6 @@ a{
 .home{
     padding-top: 250px;
     font-size: 50px;
-    
-}
-.button-home button{
-    background-color: #59adc9;
-    height: 80px;
-    width: 300px;
-    border: 0px;
-    border-radius: 10px;
-    font-size: 50px;
-    color: white;
 }
 .section2{
     background-color: #ececec;
@@ -92,26 +82,69 @@ a{
 .aboutme{
     display: flex;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 200px;
     flex-direction: row;
-    padding-left: 250px;
-    padding-top: 50px;
+    padding-top: 45px;
+}
+.aboutme li{
+    font-size: 25px;
+    margin-left: 25px;
 }
 .section3{
-    background-color: rgb(225, 0, 255);
+    background-color: white;
     max-width: 1300px;
     margin-left: 15%;
     padding: 30px;
     font-size: 25px;
     height: 787px;
 }
+.experiences{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 45px;
+}
+.experiences p{
+    margin-left: 125px;
+}
+.experience2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 80px;
+    gap: 40px;
+}
+.chambery{
+    font-size: 20px;
+    margin-top: 26px;
+    background-color: #59adc9;
+    color: white;
+    width: 480px;
+    height: 140px;
+    padding-top: 50px;
+    padding-left: 30px;
+    border-radius: 30px;
+}
 .section4{
-    background-color: rgb(0, 255, 98);
+    background-color: #ececec;
     max-width: 1300px;
     margin-left: 15%;
     padding: 30px;
     font-size: 25px;
     height: 787px;
+}
+.projects{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 45px;
+}
+.projects p{
+    margin-left: 105px;
 }
 .section5{
     background-color: rgb(255, 0, 0);
